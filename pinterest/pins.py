@@ -20,3 +20,5 @@ class pins(object):
             parameters["link"]=link
 
         return json.loads(requests.post(self.uri,data=params).text)
+
+    
